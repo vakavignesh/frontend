@@ -2,8 +2,8 @@
     "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentTemplate.json#",
     "contentVersion": "1.0.0.0",
     "parameters": {
-        "staticSites_Rg_Cloud_Frontend01_name": {
-            "defaultValue": "Rg-Cloud-Frontend01",
+        "staticSites_Rg_Cloud_Frontend_name": {
+            "defaultValue": "Rg-Cloud-Frontend",
             "type": "String"
         }
     },
