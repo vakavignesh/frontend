@@ -11,11 +11,11 @@ jobs:
       - name: Login
         uses: azure/login@v1
         with:
-          creds: $({secrets.AZURE_CREDS})
+          creds: ${{secrets.AZURE_CREDS}}
 
       - name: Deploy
         uses: azure/arm-deploy@v1
         with:
           subscriptionId: 297bb58d-ff69-447c-8c7b-9414b5634677
           resourceGroupName: Static-web-app
-          template: ./templates/staticwebapp.json
+          template: ./templates/templates.json
